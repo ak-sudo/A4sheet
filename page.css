@@ -1,0 +1,64 @@
+/* 21 x 29.7cm */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin: 0 auto;
+    margin: 2rem 2px;
+    margin-right: 0.8rem;
+    border: 4px solid black;
+    height: 29.7cm;
+    width: 21cm;
+}
+
+.line-container{
+    margin-top: 3cm;
+    border: 0.2px solid black;
+    border-top: 8px double red;
+}
+
+.line{
+    border: 1px solid black;
+    margin-top: 1cm;
+}
+
+.line-container-vertical{
+    height: 29.7cm;
+    border-right: 8px double red;
+    width: 3cm;
+    position: absolute;
+    top: 0;
+    margin-top: 2rem;
+}
+
+.box{
+    height: 2.5cm;
+    width: 7cm;
+    position: absolute;
+    border: 2px solid black;
+    top: 0;
+    margin-top: 2.7rem;
+    left: 13cm;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.subportion{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subportion .bar{
+    padding: 5px;
+}
+
